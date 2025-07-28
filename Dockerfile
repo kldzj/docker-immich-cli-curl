@@ -5,3 +5,4 @@ USER root
 RUN apk add --no-cache curl rsync
 
 USER node
+RUN npm install -g zx
